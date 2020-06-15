@@ -1,6 +1,6 @@
 {
-  "name": "@opendocsg/pdf2md",
-  "version": "0.1.16",
+  "name": "@antelligent-app/pdf2md",
+  "version": "0.1.20",
   "description": "A PDF to Markdown Converter",
   "main": "lib/pdf2md.js",
   "bin": {
@@ -28,12 +28,12 @@
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/opendocsg/pdf2md"
+    "url": "https://github.com/antelligent-app/pdf2md"
   },
   "dependencies": {
     "enumify": "^1.0.4",
     "minimist": "^1.2.5",
-    "pdfjs-dist": "^2.1.266"
+    "pdfjs-dist": "^2.4.456"
   },
   "devDependencies": {
     "@opengovsg/eslint-config-opengovsg": "^1.0.6",
@@ -52,5 +52,8 @@
     "mocha": "^7.1.0",
     "mock-fs": "^4.10.1",
     "rewire": "^5.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
